@@ -14,12 +14,20 @@ html, body {
 main {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1250px;
 }
 
 .wrapper {
     opacity: 1;
     color: var(--myColor);
     margin: 5em;
+}
+
+.wrapper-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .wrapperEmail{
@@ -33,16 +41,32 @@ main {
 }
 
 header {
+    margin:0px;
+    width: 40px;
+    height: 300px;
+    border-right: 1250px solid var(--myColorBackground);
+    border-left: 0px solid transparent;
+    border-bottom: 150px solid transparent;
     color: #ffffff;    
-    text-align: center;
     line-height: 2;
-    background-color: var(--myColorBackground);
-    padding: 15px;
 }
 
-.menuHeader {
-    margin-top: 50px;
-    height: 159px;
+.header-content{   
+    margin:0px; 
+    margin-left: 8em; 
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 1000px;
+}
+
+.header-content div{
+    margin-top: 0.2em;
+}
+
+.header-content-1{
+    text-align: center;
+    margin:-0.1em; 
 }
 
 .itemMenuHeader {
@@ -58,14 +82,48 @@ header {
 
 .titulosDasSecoes {
     max-height: 40px;
-    max-width: 200px;
-    margin-bottom: 10px;
+    max-width: 800px;
+    margin-top: 2em;
+    margin-bottom: 2em;
     display: flex;
-    align-self: center;    
+    justify-content: space-between;
+    align-self: center;   
+    align-content: center; 
+}
+
+.formButton {
+        width: 340px;
+        height: 39px;
+        color: var(--myColor);
+        display: block;
+        margin: 0 auto;
 }
 
 .titulosDasSecoes h3 {
     margin: 0 auto 0 auto;
+}
+
+#botaoDoform{
+    width: 340px;
+    height: 39px;
+    color: var(--myColor);
+}
+
+.barra-lateral{
+    width:300px;
+    height: 1px;
+    background-color: var(--myColor);
+}
+
+.amigo{
+    display: flex;
+}
+
+.amigo input{
+    width: 340px;
+    height: 39px;
+    color: var(--myColor);
+    margin: 1em;
 }
 
 a {
@@ -73,6 +131,7 @@ a {
     color: var(--myColor);
 
 }
+
 .leftSection {
     float: left;
     width: 48%;
@@ -92,11 +151,6 @@ a {
     height: 30px;
 }
 
-#botaoDoForm {
-    width: 340px;
-    height: 39px;
-    color: var(--myColor);
-}
 
 .botao {
     color: var(--myColor);
@@ -105,7 +159,9 @@ a {
     width: 260px;
     height: 39px;
     border: 1px solid var(--myColorBackground);
+    margin-top: 4em;
 }
+
 .botaoComprar {
     width: 200px;
     height: 30px;
