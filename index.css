@@ -1,10 +1,11 @@
-:root{
+:root {
     --myColorBackground: #707070;
     --myColor: #888888;
 }
 
-html, body {
-    font-family: Helvetica; 
+html,
+body {
+    font-family: Helvetica;
     padding: 0;
     margin: 0;
     /*width: 1500px;
@@ -21,52 +22,53 @@ main {
 .wrapper {
     opacity: 1;
     color: var(--myColor);
-    margin: 5em;
+    margin: -30px 100px;
 }
 
-.wrapper-container{
+.wrapper-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
-.wrapperEmail{
-        opacity: 1;
-        color: var(--myColor);
-        text-align: center;       
+.wrapperEmail {
+    opacity: 1;
+    color: var(--myColor);
+    text-align: center;
 }
 
 .textoEmail {
-    text-align: left;
+    text-align: justify;
+    margin: -40px 50px 0 50px;
 }
 
 header {
-    margin:0px;
-    width: 40px;
+    margin: 0px;
+    width: 0;
     height: 300px;
-    border-right: 1250px solid var(--myColorBackground);
+    border-right: 1280px solid var(--myColorBackground);
     border-left: 0px solid transparent;
     border-bottom: 150px solid transparent;
-    color: #ffffff;    
+    color: #ffffff;
     line-height: 2;
 }
 
-.header-content{   
-    margin:0px; 
-    margin-left: 8em; 
+.header-content {
+    margin: 0px;
+    margin-left: 8em;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     width: 1000px;
 }
 
-.header-content div{
+.header-content div {
     margin-top: 0.2em;
 }
 
-.header-content-1{
+.header-content-1 {
     text-align: center;
-    margin:-0.1em; 
+    margin: -0.1em;
 }
 
 .itemMenuHeader {
@@ -81,45 +83,51 @@ header {
 }
 
 .titulosDasSecoes {
-    max-height: 40px;
-    max-width: 800px;
     margin-top: 2em;
     margin-bottom: 2em;
     display: flex;
     justify-content: space-between;
-    align-self: center;   
-    align-content: center; 
+
 }
 
 .formButton {
-        width: 340px;
-        height: 39px;
-        color: var(--myColor);
-        display: block;
-        margin: 0 auto;
+    width: 340px;
+    height: 39px;
+    color: var(--myColor);
+    display: block;
+    margin: 20px 0;
+}
+
+.formButton2 {
+    width: 340px;
+    height: 39px;
+    color: var(--myColor);
+    display: block;
+    margin: 30px 200px;
 }
 
 .titulosDasSecoes h3 {
     margin: 0 auto 0 auto;
 }
 
-#botaoDoform{
+#botaoDoform {
     width: 340px;
     height: 39px;
     color: var(--myColor);
 }
 
-.barra-lateral{
-    width:300px;
-    height: 1px;
+.barra-lateral {
+    width: 300px;
+    height: 1.5px;
+    margin: 10px;
     background-color: var(--myColor);
 }
 
-.amigo{
+.amigo {
     display: flex;
 }
 
-.amigo input{
+.amigo input {
     width: 340px;
     height: 39px;
     color: var(--myColor);
@@ -134,19 +142,20 @@ a {
 
 .leftSection {
     float: left;
-    width: 48%;
+    width: 40%;
     color: #707070;
     margin-left: 30px;
-    
+    margin-right: 100px;
+
 }
 
 .rightSection {
     float: right;
-    width: 48%;
+    width: 40%;
 
 }
 
-.inputsDoForm{
+.inputsDoForm {
     width: 340px;
     height: 30px;
 }
@@ -181,16 +190,41 @@ a {
 
 .listaDeProdutos img {
     border: var(--myColor) 1px solid;
+    margin-top: 8px;
     width: 200;
     height: 150px;
 }
 
 footer {
     text-align: center;
-    background-color: var(--myColorBackground);
     opacity: 1;
-    color: #ffffff;  
-    height: 293px;  
+    margin: 0px;
+    width: 0;
+    height: 300px;
+    border-right: 1280px solid var(--myColorBackground);
+    border-left: 0px solid transparent;
+    border-top: 60px solid transparent;
+    color: #ffffff;
+    line-height: 2;
+}
+
+.friendsInput {
+    margin-right: 60px;
+    margin-bottom: 25px;
+
+}
+
+.divDaListaDosProdutos{
+    margin-left: 70px;
+}
+
+
+
+.amigo input {
+    width: 340px;
+    height: 40px;
+    color: var(--myColor);
+    margin: 0 auto;
 }
 
 #botaoVemVer {
@@ -199,4 +233,18 @@ footer {
     color: var(--myColor);
     border: 1px solid var(--myColorBackground);
     border-radius: 4px;
+}
+
+.footer-content {
+    margin: 0px;
+    margin-left: 8em;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 1000px;
+}
+
+.footer-content-1 {
+    text-align: center;
+    margin: -0.1em;
 }
