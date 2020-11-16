@@ -10,3 +10,8 @@ SEGUNDO PASSO:
 TERCEIRO PASSO:
 - voltei ao CSS para fazer os alinhamentos dos elementos
 
+QUARTO PASSO:
+-criei um exemplo do email que será encaminhado ao amigo
+
+QUINTO PASSO:
+-voltei ao CSS e alinhei os elementos(usei os efeitos que consegui lembrar e também que obtive pesquisando)
